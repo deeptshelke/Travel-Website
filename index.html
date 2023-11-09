@@ -29,19 +29,23 @@
                 <form action="/">
                     <div class="input_group">
                         <label for="destination">Where do you want to go?</label>
-                        <input type="text" placeholder="Country, ZIP" />
+                        <select name="location" id="" placeholder="select city">
+                            <option value="">London</option>
+                            <option value="">Tokyo</option>
+                            <option value="">Miami</option>
+                        </select>
                     </div>
                     <div class="input_group">
                         <label for="checkIn">Check In</label>
-                        <input type="text" placeholder="Choose a date" />
+                        <input type="date" placeholder="Choose a date" />
                     </div>
                     <div class="input_group">
                         <label for="checkOut">Check Out</label>
-                        <input type="text" placeholder="Choose a date" />
+                        <input type="date" placeholder="Choose a date" />
                     </div>
                     <div class="input_group">
                         <label for="guests">Guests</label>
-                        <input type="text" placeholder="Number of guests" />
+                        <input type="number" placeholder="Number of guests" />
                     </div>
                     <button class="btn">CHECK AVAILABILITY</button>
                 </form>
